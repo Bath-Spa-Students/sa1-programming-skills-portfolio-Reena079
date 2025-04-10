@@ -14,7 +14,7 @@ while attempts <max_num_of_attempts:
 
         #Check if the  entered password is valid
         if entered_password==valid_password:
-                print("Password correct! Access granted.")
+                print("Correct password! Access granted.")
                 break #Exit the loop when the correct password is entered
         else:
                 attempts+=1 #Increase the number of attempts 
