@@ -1,7 +1,7 @@
 #Function to ask a question
 def ask_question(question,correct_answer):
-    answer = input(question).strip().lower() #convert answer to lowercase
-    if answer==correct_answer.lower(): #ignore capitalization
+    answer = input(question).strip().lower() #convert answer to lowercase letters
+    if answer==correct_answer.lower(): #ignore capital letters 
         print("Correct!")
     else:
         print("Wrong")
