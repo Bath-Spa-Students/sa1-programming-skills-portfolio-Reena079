@@ -2,13 +2,13 @@
 #Fill in the blanks in the code below so that the function hello() prints "Hello" to the console.
 
 def hello():
-     print("Hello") #
+     print("Hello") # it will print hello to the console
 
 def main():
-     hello()
+     hello() #it will print to call the hello function
 
 if __name__== "__main__":
-    main()
+    main()  #it will help if this script is running directly
 
 
 
