@@ -8,6 +8,7 @@ def ask_question(question,correct_answer):
 
 # List of European countries and capitals
 questions= [
+    #Ask the questions to the user
     ("What is the capital of France?","Paris"),
     ("What is the capital of United Kingdom?","London"),
     ("What is the capital of Belgium?","Brussels"),
